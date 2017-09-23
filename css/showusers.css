@@ -1,0 +1,19 @@
+#container{
+  margin: 25px;
+}
+ul{
+  list-style-type: none;
+
+  border: 1px solid black;
+  height: 250px;
+  width: 250px;
+  display: inline;
+  float: left;
+}
+
+img{
+  margin-top: 10px;
+  height: 200px;
+  width: 200px;
+
+}
