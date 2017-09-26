@@ -3,26 +3,28 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
-  <title>Show user using GITHUB username</title>
+  <title>Show USER using GITHUB USERNAME</title>
   <link rel="stylesheet" type="text/css" href="css/showuser.css">
 </head>
 <body>
 <div class="container">
   <h3>Information Generator</h3>
   <br>
-  <p>Type your git username in the text field: </p>
-  <input type="text" id="username">
+  <p class="enter">Type your Github Username : </p>
+  <input class="input" type="text" id="username">
 
-  <button onclick="load()">Submit</button>
+  <button class="button" onclick="load()">Submit</button>
 </div>
   <div class="information">
     <img src="" alt="" id="image">
-    <p>Name: <span id="name"></span></p>
-    <p>Username: <span id="user"></span></p>
-    <p>Location: <span id="location"></span></p>
+    <div class="info">
+    <p>Name : <span id="name"></span></p>
+    <p>Username : <span id="user"></span></p>
+    <p>Location : <span id="location"></span></p>
     <p id="bio"></p>
-
+    </div>
   </div>
 <script src="js/showuser.js"></script>
 </body>
 </html>
+
